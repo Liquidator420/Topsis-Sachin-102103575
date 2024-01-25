@@ -2,25 +2,25 @@
 # TOPSIS-Sachin-102103575
 
 ## Overview
-for: Project-1 (UCS633) submitted by: Katinder Kaur Roll no: 101703283 Group: 3COE13
+for: Project-1 (UCS654) submitted by: Sachin Sushil Singh Roll no: 102103575 Group: 3COE21
 
 TOPSIS-102103575 is a Python-based implementation of the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) method. It is designed to analyze a given dataset and calculate TOPSIS scores and rankings based on user-provided weights and impacts.
 
 ## Usage
 To use the TOPSIS-102103575 program, follow these steps:
 
-1. **Install Dependencies:**
-   Ensure you have the required dependencies installed. You can install them using the following command:
+1. **Installation**
+   You can install this using the following command:
 
    ```
-   pip install pandas numpy
+   pip install Topsis-Sachin-102103575
    ```
 
 2. **Run the Program:**
    Execute the program from the command line with the following command:
 
    ```
-   python TOPSIS-102103575.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
+   python analysis <InputDataFile> <Weights> <Impacts> <ResultFileName>
    ```
 
    Replace `<InputDataFile>`, `<Weights>`, `<Impacts>`, and `<ResultFileName>` with the appropriate values.
@@ -40,7 +40,7 @@ To use the TOPSIS-102103575 program, follow these steps:
 
 ## Example
 ```bash
-python TOPSIS-102103575.py input_data.csv 1,1,1,+,-,+ result_output.csv
+python analysis input_data.csv 1,1,1,+,-,+ result_output.csv
 ```
 
 ## Author

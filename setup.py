@@ -10,13 +10,19 @@ setup(
     description='It does a topsis analysis of a given csv file'
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/uditvashisht/saral-square",
-    author="Udit Vashisht",
-    author_email="admin@saralgyaan.com",
+    url="https://github.com/Liquidator420/Topsis-Sachin-102103575",
+    author="Sachin Sushil Singh",
+    author_email="sachinsushilsingh@gmail.com",
     license="MIT",
-    packages=find_packages(),
+    packages=["analysis"],
+    include_package_data=True,
     install_requires=[
         'pandas',
         'numpy',
     ],
+    entry_points={
+        "console_scripts": [
+            "analysis=analysis.__main__:main",
+        ]
+    },
 )
