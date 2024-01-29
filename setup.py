@@ -5,8 +5,8 @@ HERE=pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='TOPSIS-Sachin-102103575',
-    version='0.1',
+    name='Topsis_Sachin_102103575',
+    version='0.3',
     description='It does a topsis analysis of a given csv file',
     long_description=README,
     long_description_content_type="text/markdown",
@@ -14,6 +14,16 @@ setup(
     author="Sachin Sushil Singh",
     author_email="sachinsushilsingh@gmail.com",
     license="MIT",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+    ],
     packages=["analysis"],
     include_package_data=True,
     install_requires=[

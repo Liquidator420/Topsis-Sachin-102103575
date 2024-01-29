@@ -1,13 +1,13 @@
 
-# TOPSIS-Sachin-102103575
+# Topsis_Sachin_102103575
 
 ## Overview
 for: Project-1 (UCS654) submitted by: Sachin Sushil Singh Roll no: 102103575 Group: 3COE21
 
-TOPSIS-102103575 is a Python-based implementation of the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) method. It is designed to analyze a given dataset and calculate TOPSIS scores and rankings based on user-provided weights and impacts.
+Topsis_102103575 is a Python-based implementation of the Technique for Order of Preference by Similarity to Ideal Solution (TOPSIS) method. It is designed to analyze a given dataset and calculate TOPSIS scores and rankings based on user-provided weights and impacts.
 
 ## Usage
-To use the TOPSIS-102103575 program, follow these steps:
+To use the Topsis_102103575 program, follow these steps:
 
 1. **Installation**
    You can install this using the following command:
